@@ -11,7 +11,7 @@ Original App Design Project - README Template
 
 ## Overview
 ### Description
-[Description of your app]
+BeFit is a fitness application to keep track of calories eaten daily, food plans and workout routines. 
 
 ### App Evaluation
 [Evaluation of your app across the following attributes]
