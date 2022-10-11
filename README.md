@@ -16,10 +16,10 @@ BeFit is a fitness application to keep track of calories eaten daily, food plans
 ### App Evaluation
 [Evaluation of your app across the following attributes]
 - **Category:** Fitness
-- **Mobile:** IOS
+- **Mobile:**
 - **Story:**
-- **Market:** beginner/Intermediate/ Advanced fitness enthusiasts
-- **Habit:** Healthy lifestyle
+- **Market:**
+- **Habit:**
 - **Scope:**
 
 ## Product Spec
@@ -31,7 +31,7 @@ BeFit is a fitness application to keep track of calories eaten daily, food plans
 * Create app file
 * Organize layout for application
 * Brainstorm design ideas
-* ...
+* be able to create account
 
 **Optional Nice-to-have Stories**
 
@@ -40,29 +40,29 @@ BeFit is a fitness application to keep track of calories eaten daily, food plans
 
 ### 2. Screen Archetypes
 
-* [list first screen here]
-   * [list associated required story here]
-   * ...
-* [list second screen here]
-   * [list associated required story here]
-   * ...
+* Screen showing total calories eaten / total calories needed per day 
+   * organize layout for application
+   * design ideas for screen archetype
+* Screen showing which workout day it is with users listed workouts
+   * organize layout for application 
+   * be able to create account
 
 ### 3. Navigation
 
 **Tab Navigation** (Tab to Screen)
 
-* [fill out your first tab]
-* [fill out your second tab]
-* [fill out your third tab]
+* Calories eaten / calories needed
+* Workouts / workout routines
+* Workout buddies near me (find workout partners in same area)
 
 **Flow Navigation** (Screen to Screen)
 
-* [list first screen here]
-   * [list screen navigation here]
-   * ...
-* [list second screen here]
-   * [list screen navigation here]
-   * ...
+* Screen showing total calories eaten / total calories needed per day 
+   * Calories eaten / calories needed, add to users calories eaten per day
+   * View how many calories left and read tips
+* Screen showing which workout day it is with users listed workouts
+   * Workouts / workout routines to keep track of which day it is at gym (back, legs etc.)
+   * Add workouts, update workout for day
 
 ## Wireframes
 [Add picture of your hand sketched wireframes in this section]
