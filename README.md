@@ -18,9 +18,9 @@ BeFit is a fitness application to keep track of calories eaten daily, food plans
 - **Category:** Fitness
 - **Mobile:** This app would be primarily developed for mobile in order to get the best features.
 - **Story:** 
-- **Market:** beginner/Intermediate/ Advanced fitness enthusiasts
-- **Habit:** Healthy lifestyle
-- **Scope:**
+- **Market:** Beginner/Intermediate/ Advanced fitness enthusiasts.
+- **Habit:** Healthy lifestyle.
+- **Scope:** User will be able to track daily calories intake and discover different workouts.
 
 ## Product Spec
 
