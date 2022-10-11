@@ -1,7 +1,7 @@
 Original App Design Project - README Template
 ===
 
-# APP_NAME_HERE
+# BeFit
 
 ## Table of Contents
 1. [Overview](#Overview)
