@@ -28,7 +28,9 @@ Original App Design Project - README Template
 
 **Required Must-have Stories**
 
-* [fill in your required user stories here]
+* Create app file
+* Organize layout for application
+* Brainstorm design ideas
 * ...
 
 **Optional Nice-to-have Stories**
