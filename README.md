@@ -65,10 +65,8 @@ BeFit is a fitness application to keep track of calories eaten daily, food plans
    * Add workouts, update workout for day
 
 ## Wireframes
-[Add picture of your hand sketched wireframes in this section]
-<img src="YOUR_WIREFRAME_IMAGE_URL" width=600>
 
-### [BONUS] Digital Wireframes & Mockups
+![image](https://user-images.githubusercontent.com/18449347/194976949-c90d8f45-404b-44ec-b2a2-dec46d57c98e.png)### [BONUS] Digital Wireframes & Mockups
 
 ### [BONUS] Interactive Prototype
 
