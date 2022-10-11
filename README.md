@@ -31,7 +31,7 @@ BeFit is a fitness application to keep track of calories eaten daily, food plans
 * Create app file
 * Organize layout for application
 * Brainstorm design ideas
-* be able to create account
+* Be able to create account
 * User is able to enter daily calory intake
 * User can see list of available workouts
 * User can see detail of selected workout
