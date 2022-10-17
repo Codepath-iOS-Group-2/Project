@@ -76,7 +76,18 @@ BeFit is a fitness application to keep track of calories eaten daily, food plans
 ## Schema 
 [This section will be completed in Unit 9]
 ### Models
-[Add table of models]
+Post
+
+Property	Type	Description
+objectId	String	unique id for the user post (default field)
+author	Pointer to User	image author
+image	File	image that user posts
+caption	String	image caption by author
+commentsCount	Number	number of comments that has been posted to an image
+likesCount	Number	number of likes for the post
+createdAt	DateTime	date when post is created (default field)
+updatedAt	DateTime	date when post is last updated (default field)
+
 ### Networking
 - [Add list of network requests by screen ]
 - [Create basic snippets for each Parse network request]
