@@ -125,29 +125,29 @@ addLocation | String | the location of where you completed an exercise can be ad
 
     * (Read/GET) Query all weekly view posts
     * (Create) Create new post for weekly view
-(Delete) Delete post for weekly view
+    * (Delete) Delete post for weekly view
 
-Scrolling Feed Screen
+  * Scrolling Feed Screen
 
-(Create/POST) Create a new like on a post
-(Delete) Delete existing like
-(Create/POST) Create a new comment on a post
-(Delete) Delete existing comment
+     * (Create/POST) Create a new like on a post
+     * (Delete) Delete existing like
+     * (Create/POST) Create a new comment on a post
+     * (Delete) Delete existing comment
 
-Profile Screen
+  * Profile Screen
 
-(Update/PUT) Update user profile image
-(Update/Info) Update user profile info
+    * (Update/PUT) Update user profile image
+    * (Update/Info) Update user profile info
 
-Calories Screen
+  * Calories Screen
 
-(Update/Info) Update user calories Morning/Afternoon/Evening info
-(Update Auto) Total KCal consumed daily
+    * (Update/Info) Update user calories Morning/Afternoon/Evening info
+    * (Update Auto) Total KCal consumed daily
 
-Workout Screen
+  * Workout Screen
 
-(Update/Info) Update user workouts info
-(Update/Info) Update user location workout info
+    * (Update/Info) Update user workouts info
+    * (Update/Info) Update user location workout info
 
 
 - [Add list of network requests by screen ]
