@@ -68,8 +68,13 @@ BeFit is a fitness application to keep track of calories eaten daily, food plans
    * Add workouts, update workout for day
 
 ## Wireframes
+<img width="322" alt="Screen Shot 2022-10-17 at 10 55 39 AM" src="https://user-images.githubusercontent.com/103790405/196226531-c720145b-0b63-4c9d-81e4-b03aac87f469.png">
+<img width="322" alt="Screen Shot 2022-10-17 at 10 55 51 AM" src="https://user-images.githubusercontent.com/103790405/196226563-f0dee092-cec0-46fc-a57c-3438e2360c64.png">
+<img width="275" alt="Screen Shot 2022-10-17 at 12 00 24 PM" src="https://user-images.githubusercontent.com/103790405/196226616-a8d8ef7a-38e5-4571-857e-619b27117961.png">
+<img width="322" alt="Screen Shot 2022-10-17 at 11 06 34 AM" src="https://user-images.githubusercontent.com/103790405/196226636-84719170-9a1e-4e53-af84-14d06523725b.png">
+<img width="312" alt="Screen Shot 2022-10-17 at 11 30 46 AM" src="https://user-images.githubusercontent.com/103790405/196226649-2870e57f-7794-4584-bfff-d6532568eef3.png">
+<img width="318" alt="Screen Shot 2022-10-17 at 11 53 26 AM" src="https://user-images.githubusercontent.com/103790405/196226663-14aa7678-569a-463a-bb5f-a979fb09018d.png">
 
-![image](https://user-images.githubusercontent.com/18449347/194976949-c90d8f45-404b-44ec-b2a2-dec46d57c98e.png)![image](https://user-images.githubusercontent.com/18449347/194978518-52e0c01c-9681-4d48-8f4a-2b7338e4d3ca.png)
 
 ### [BONUS] Interactive Prototype
 
@@ -78,15 +83,39 @@ BeFit is a fitness application to keep track of calories eaten daily, food plans
 ### Models
 Post
 
-Property	Type	Description
-objectId	String	unique id for the user post (default field)
-author	Pointer to User	image author
-image	File	image that user posts
-caption	String	image caption by author
-commentsCount	Number	number of comments that has been posted to an image
-likesCount	Number	number of likes for the post
-createdAt	DateTime	date when post is created (default field)
-updatedAt	DateTime	date when post is last updated (default field)
+Property | Type | Description | 
+--- | --- | --- | 
+objectId | String | unique id for the user post (default field) |
+author | Pointer to User | image author | 
+image | File | image that user posts | 
+caption | String | image caption by author |
+commentsCount | Number | number of comments that has been posted to an image |
+likesCount | Number | number of likes for the post |
+createdAt | DateTime | date when post is created (default field) |
+
+User
+Property | Type | Description | 
+--- | --- | --- | 
+name | String | name of user |
+hobbies | String | hobbies the user likes to do in their free time |
+favWorkouts | String | favorite workouts the user likes to do when working out |
+currentWeight | String | current weight of user |
+targetWeight | String | target goal weight of user |
+height | String | user's height |
+age | String | user's age |
+gender | String | user's gender |
+
+Calories Track
+Property | Type | Description | 
+--- | --- | --- | 
+addFood | String | foods eaten at a specific time to be logged (Morning/Afternoon/Evening) |
+totalCal | String | calculates total amount of KCal consumed the day of |
+
+Workout Track
+Property | Type | Description | 
+--- | --- | --- | 
+addWorkout | String | the type of exercise completed can be added |
+addLocation | String | the location of where you completed an exercise can be added |
 
 ### Networking
 - [Add list of network requests by screen ]
