@@ -118,6 +118,38 @@ addWorkout | String | the type of exercise completed can be added |
 addLocation | String | the location of where you completed an exercise can be added |
 
 ### Networking
+
+List of network requests by screen
+
+Home Screen
+
+(Read/GET) Query all weekly view posts
+(Create) Create new post for weekly view
+(Delete) Delete post for weekly view
+
+Scrolling Feed Screen
+
+(Create/POST) Create a new like on a post
+(Delete) Delete existing like
+(Create/POST) Create a new comment on a post
+(Delete) Delete existing comment
+
+Profile Screen
+
+(Update/PUT) Update user profile image
+(Update/Info) Update user profile info
+
+Calories Screen
+
+(Update/Info) Update user calories Morning/Afternoon/Evening info
+(Update Auto) Total KCal consumed daily
+
+Workout Screen
+
+(Update/Info) Update user workouts info
+(Update/Info) Update user location workout info
+
+
 - [Add list of network requests by screen ]
 - [Create basic snippets for each Parse network request]
 - [OPTIONAL: List endpoints if using existing API such as Yelp]
