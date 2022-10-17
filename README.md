@@ -123,8 +123,8 @@ addLocation | String | the location of where you completed an exercise can be ad
 
   * Home Screen
 
-(Read/GET) Query all weekly view posts
-(Create) Create new post for weekly view
+    * (Read/GET) Query all weekly view posts
+    * (Create) Create new post for weekly view
 (Delete) Delete post for weekly view
 
 Scrolling Feed Screen
