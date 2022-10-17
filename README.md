@@ -119,9 +119,9 @@ addLocation | String | the location of where you completed an exercise can be ad
 
 ### Networking
 
-- List of network requests by screen
+* List of network requests by screen
 
-Home Screen
+  * Home Screen
 
 (Read/GET) Query all weekly view posts
 (Create) Create new post for weekly view
