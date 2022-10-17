@@ -119,7 +119,7 @@ addLocation | String | the location of where you completed an exercise can be ad
 
 ### Networking
 
-List of network requests by screen
+- List of network requests by screen
 
 Home Screen
 
