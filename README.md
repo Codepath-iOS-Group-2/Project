@@ -152,3 +152,7 @@ addLocation | String | the location of where you completed an exercise can be ad
 
 - [Create basic snippets for each Parse network request]
 - [OPTIONAL: List endpoints if using existing API such as Yelp]
+
+Gif progress 10/24/2022
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/103790405/197660894-12988841-4c95-4f37-8e6c-a4e197ef2c09.gif)
+
