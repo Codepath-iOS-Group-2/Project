@@ -1,0 +1,110 @@
+//
+//  EditProfileViewController.swift
+//  BeFit
+//
+//  Created by Camila Aichele on 10/24/22.
+//
+
+import UIKit
+import Parse
+import AlamofireImage
+
+class EditProfileViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
+    
+    
+    @IBOutlet weak var ProfilePic: UIImageView!
+    
+    @IBOutlet weak var NameText: UITextField!
+    
+    @IBOutlet weak var HobbyText: UITextField!
+    
+    @IBOutlet weak var FavWorkoutText: UITextField!
+    
+    @IBOutlet weak var CurrentWeightText: UITextField!
+    
+    @IBOutlet weak var TargetWeightText: UITextField!
+    
+    @IBOutlet weak var GenderText: UITextField!
+    
+    @IBOutlet weak var AgeText: UITextField!
+    
+    @IBOutlet weak var HeightText: UITextField!
+    
+    
+    @IBAction func SaveButton(_ sender: Any) {
+        let post = PFObject(className: "Posts")
+        
+        post["caption"] = NameText.text
+        post["caption"] = HobbyText.text
+        post["caption"] = FavWorkoutText.text
+        post["caption"] = CurrentWeightText.text
+        post["caption"] = TargetWeightText.text
+        post["caption"] = GenderText.text
+        post["caption"] = AgeText.text
+        post["caption"] = HeightText.text
+        post["author"] = PFUser.current()!
+        
+        let imageData = imageView.image!.pngData()
+        let file = PFFileObject(name: "image.png", data: imageData!)
+        post["image"] = file
+        
+        post.saveInBackground { (success, error) in
+            if (success)
+            {
+                self.dismiss(animated: true, completion: nil)
+                print("saved!")
+            }
+            else
+            {
+                print("error!")
+            }
+        }
+    }
+    
+        
+        // Do any additional setup after loading the view.
+    }
+    
+    @IBAction func ProfilePic(_ sender: Any) {
+        let picker = UIImagePickerController()
+        picker.delegate = self
+        picker.allowsEditing = true
+        
+        if (UIImagePickerController.isSourceTypeAvailable(.camera)) {
+            picker.sourceType = .camera
+        }
+        else
+        {
+            picker.sourceType = .photoLibrary
+        }
+        
+        present(picker, animated: true, completion: nil)
+    }
+    
+    func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
+        let image = info[.editedImage] as! UIImage
+        let size = CGSize(width: 300, height: 300)
+        let scaledImage = image.af_imageAspectScaled(toFill: size)
+        imageView.image = scaledImage
+        
+        dismiss(animated: true, completion: nil)
+    }
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+
+        // Do any additional setup after loading the view.
+    }
+    
+
+    /*
+    // MARK: - Navigation
+
+    // In a storyboard-based application, you will often want to do a little preparation before navigation
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        // Get the new view controller using segue.destination.
+        // Pass the selected object to the new view controller.
+    }
+    */
+
+}
