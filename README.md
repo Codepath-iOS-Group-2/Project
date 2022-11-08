@@ -156,9 +156,19 @@ addLocation | String | the location of where you completed an exercise can be ad
 Gif progress 10/31/2022
 
 ![ezgif com-gif-maker](https://user-images.githubusercontent.com/103790405/197660894-12988841-4c95-4f37-8e6c-a4e197ef2c09.gif)
+
 ![ezgif com-gif-maker-2](https://user-images.githubusercontent.com/103790405/197661148-739cd8d1-4750-4442-aebd-2b603a855752.gif)
 
 Gif progress 11/5/2022
 
 ![ezgif com-gif-maker](https://user-images.githubusercontent.com/103790405/199325704-5b20e336-01f5-4e60-a86c-eb967987ffc6.gif)
+
+Gif progress 11/7/2022
+
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/103790405/200457928-3dc7dcf8-ce31-4f82-bf3e-eee3690eae24.gif)
+
+![ezgif com-gif-maker-2](https://user-images.githubusercontent.com/103790405/200457950-c66b83f1-8ad4-46bf-a404-f0c5a14dc6ea.gif)
+
+Demo Presentation Practice:
+https://docs.google.com/presentation/d/1D-Sc6qtfco8evxSoaV6jA6ZybMaLb_F1wkER1eQ7z1M/edit?usp=sharing
 
