@@ -172,3 +172,10 @@ Gif progress 11/7/2022
 Demo Presentation Practice:
 https://docs.google.com/presentation/d/1D-Sc6qtfco8evxSoaV6jA6ZybMaLb_F1wkER1eQ7z1M/edit?usp=sharing
 
+Video:
+
+
+
+https://user-images.githubusercontent.com/103790405/201801762-583d3dd4-306b-46b0-9bc6-021a031a9eb7.mov
+
+
